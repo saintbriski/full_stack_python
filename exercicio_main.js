@@ -15,7 +15,7 @@ form.addEventListener('submit', function (e) {
 })
 
     const mensagemSucesso =  `Tudo certo! O Número <b>B</b> é maior que o número <b>A</b>`; 
-    const mensagemDeErro = `O número <b></b> precisa ser maior que o número <b>A</b>`; 
+    const mensagemDeErro = `O número <b>B</b> precisa ser maior que o número <b>A</b>`; 
 
     function exibirMensagem(valido) {
         let mensagem = document.querySelector('.success-message');
